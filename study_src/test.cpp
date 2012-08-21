@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main()
+{
+	int b,c;
+	std::cout << "Enter two numbers:" << std::endl;
+	std::cin >> b >> c;
+	int upper,lower;
+	if(b>c){
+		upper=b;
+		lower=c;
+	}else{
+		upper=c;
+		lower=b;
+	}
+
+	std::cout <<"the bigger number is;" << upper
+			  <<"\n the smaller number is:"<<lower<<std::endl;
+}
+
+
