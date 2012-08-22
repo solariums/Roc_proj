@@ -23,6 +23,7 @@ int main(){
     cout<< " 处理之后bitvec中0有？:"<< bitvec.none()<<endl;
     cout <<"bitvec：：："<<bitvec<<endl;
     bitset<64> ibit(1010101);
+
     cout <<"ibit >>>>"<< ibit<<endl;
 }
 
