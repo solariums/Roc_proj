@@ -22,7 +22,7 @@ int main(){
     cout<< " 处理之后bitvec中1有？:"<< bitvec.any()<<endl;
     cout<< " 处理之后bitvec中0有？:"<< bitvec.none()<<endl;
     cout <<"bitvec：：："<<bitvec<<endl;
-    bitset<64> ibit(1010101);
+    bitset<64> ibit(101010100932);
 
     cout <<"ibit >>>>"<< ibit<<endl;
 }
